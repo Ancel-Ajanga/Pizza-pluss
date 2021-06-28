@@ -44,3 +44,29 @@ $(document).ready(function(){
      default:
        console.log("error"); 
    }
+   switch(pcrust){
+    case "0":
+      crust_price = 0;
+    break;
+    case "Crispy":
+      crust_price = 300;
+    break;
+    case "Stuffed":
+      crust_price = 250;
+    break;
+    case "Gluten-free":
+      crust_price = 180;
+    break;
+    default:
+      console.log("No price"); 
+  }
+  let topping_value = ptopping.length*100;
+  console.log("toppins value" + topping_value);
+
+  if((psize == "0") && (pcrust == "0")){
+    console.log("nothing selected");
+    $("button.proceed").show();
+    $("#information").show();
+    $("div.choise").hide();
+    alert("Please select pizza size and crust"); 
+  }
