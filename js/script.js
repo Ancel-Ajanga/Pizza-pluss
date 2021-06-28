@@ -25,3 +25,22 @@ $(document).ready(function(){
        ptopping.push($(this).val());
    });
    console.log(ptopping.join(", "));
+
+   switch(psize){
+    case "0":
+      price =0;
+    break;
+    case "large":
+       price = 1800;
+       console.log(price);
+     break;
+     case "medium":
+       price = 1200;
+       console.log("The price is "+price);
+     break;
+     case "small":
+       price = 800;
+       console.log(price);
+     default:
+       console.log("error"); 
+   }
