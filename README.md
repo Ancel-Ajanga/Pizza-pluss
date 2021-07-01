@@ -1,18 +1,22 @@
-Pizza-pluss
-Author
+# Pizza-pluss
+
+## Author
+
 Ajanga Ancel
 
-Version
+## Version
+
 2021
 
-Description
+## Description
 
 * This is a web application for Pizza Pluss which is a pizza selling venture, that shows details about the services and diffent pizza they sell, their menu and also allows customers to order online for their preferred pizza depending on size, crust they need and also allows them to input a location which they would love the piza to be delivered to.
 
-Live Page
+## Live Page
 
 
-Installation / Setup instruction
+
+## Installation / Setup instruction
 
 * Open Terminal {Ctrl+Alt+T}
 
@@ -22,14 +26,18 @@ Installation / Setup instruction
 
 * code . or atom . depending on the text editor of your choise.
 
-Technologies Used.
 
-*HTML5
+## Technologies Used.
+
+
+* HTML5
 * CSS
 * Bootstrap
-*Javascript
+* Javascript
 
-Behaviour	Input	Output.
+
+## Behaviour	Input	Output.
+
 
 * Select pizza flavor	
 * Select piza size	large, medium, small	large
@@ -42,15 +50,22 @@ Behaviour	Input	Output.
 * press place order		We have recieved your order and it will be delivered to you 
   with your  name, place of delivery and amount to be paid.
 
-Known Bugs
+
+## Known Bugs
+
 
 * All toppings has the same price regardless of the pizza size
 
-Contact Information
+
+
+## Contact Information
+
 
 * If you have any question or contributions that would better this app, please email me a
   [duke.lewis@yahoo.com]
 
-License
-MIT License:
-Copyright (c) Ajanga Ancel
+## License
+
+### MIT License:
+
+### Copyright (c) Ajanga Ancel
