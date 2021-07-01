@@ -165,7 +165,7 @@ $(document).ready(function(){
       $("#addedprice").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
-      let deliveryamount= checkoutTotal+200;
+      let deliveryamount= checkoutTotal*(0.12)+200;
       console.log("You will pay sh. "+deliveryamount+" on delivery");
       $("#totalbill").append("Your bill plus delivery fee is: "+deliveryamount);
     });
